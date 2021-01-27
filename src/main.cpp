@@ -13,4 +13,7 @@ void setup()
 void loop() 
 {
   my_movement->move_on();
+  delay(10000);
+  my_movement->move_backward();
+  delay(10000);
 }

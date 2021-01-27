@@ -3,5 +3,9 @@
 
 void Movement::move_on()
 {
-    Serial.print("Moving Foward");
+    Serial.println("Moving Foward");
+}
+void Movement::move_backward()
+{
+    Serial.println("Moving Backward");
 }

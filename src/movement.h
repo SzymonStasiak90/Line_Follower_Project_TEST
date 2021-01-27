@@ -7,5 +7,4 @@ class Movement
 
         void move_on();
         void move_backward();
-
 };
